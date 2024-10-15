@@ -55,8 +55,26 @@ footer {
 
 /* Estilos para telas pequenas - Mobile */
 @media (max-width: 767px) {
-    .content {
+    body {
+        display: flex;
         flex-direction: column;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .left {
+        order: 2;
+    }
+
+    .main {
+        order: 1;
+    }
+
+    .right {
+        order: 3;
     }
 }
 
